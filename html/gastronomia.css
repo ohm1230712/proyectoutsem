@@ -1,0 +1,92 @@
+html{
+    font-size: 62.5%;
+    /*tamaño de el contenido deve de ser de 62.5%*/
+    box-sizing: border-box;/*Para que el contenedor no se haga mas grande cuando hago mas grande una imagen u otro objeto*/
+}
+body
+{
+    font-size: 16px;
+    /*font-family:*/
+   background: url(../img/12439438_982982488444343_5257813054579013349_n.jpg) no-repeat fixed;
+   min-height: 100vh;
+    background-size: cover;
+
+}
+.titulo{
+    text-align: center;
+    color: black;
+    background-color: darkblue;
+    margin: 2rem;
+    width: 500px;
+    border-radius: 10px;
+}
+.nav-pg{
+    background-color: blue;
+    border-radius: 10px;
+
+}
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+@media(min-width:768px){
+    .navegacion-principal{
+        flex-direction: row;
+        align-items: center;
+    }
+}
+.navegacion-principal a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+}    
+.navegacion-principal a:hover{
+    background-color: yellow;
+    color:black;
+    border-radius: 10px;
+   }
+
+.img{
+    border-radius: 10px;
+    width: 650px;
+    height: 510px;
+    position: relative;
+    top:10px;
+}
+.art1{
+    border-radius: 10px;
+    width: 700px;
+    height: 650px;
+    background-color: gold;
+    text-align: center;
+    margin: 30px;
+}
+.art2{
+    border-radius: 10px;
+    width: 700px;
+    height: 650px;
+    background-color: brown;
+    text-align: center;
+    position: relative;
+    margin-left: 530px;
+}
+.art3{
+    border-radius: 10px;
+    width: 700px;
+    height: 680px;
+    background-color: cadetblue;
+    text-align: center;
+    margin: 30px;
+}
+.art4{
+    border-radius: 10px;
+    width: 700px;
+    height: 650px;
+    background-color: violet;
+    text-align: center;
+    margin-left: 530px;
+}
